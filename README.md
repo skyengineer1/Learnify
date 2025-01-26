@@ -55,14 +55,6 @@ Learnify/
 
 - **Interactive Menu**: Toggle side navigation with a single click for improved user experience.
 
-## 🖼 Screenshots
-
-### Homepage
-![Homepage Screenshot](images/homepage.png)
-
-### Features Section
-![Features Screenshot](images/features.png)
-
 ## 🚀 Future Enhancements
 
 - 💬 Add a chat feature for live interaction with instructors.
