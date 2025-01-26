@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(images/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.container {
+    margin-left: 4em;
+}
+
+img.logo {
+    width: 8em;
+    margin-top: 2em;
+}
+
+.header-text {
+    max-width: 30em;
+    margin-top: 10em;
+}
+
+h1 {
+    font-family: 2rem;
+}
+
+p {
+    color: rgb(65, 65, 65);
+}
+
+.square {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    background-color: pink;
+    margin: 1em 0;
+}
+
+.header-button {
+    background-color: transparent;
+    padding: 1em 3em;
+    border: 2px solid pink;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+}
+
+.header-button:hover {
+    background-color: pink;
+    color: white;
+}
+
+.line-1, .line-2, .line-3 {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    background-color: pink;
+}
+
+.line-2 {
+    width: 5em;
+    height: 2px;
+}
+
+.line-3 {
+    width: 3.5em;
+    height: 2px;
+}
+
+nav {
+    position: fixed;
+    right: -15em;
+    top: 0;
+    height: 100vh;
+    width: 15em;
+    background-color: pink;
+    z-index: 2;
+    transition: 1s;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 4em 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menuBtn {
+    width: 3em;
+    position: fixed;
+    right: 3em;
+    top: 3.5em;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#about, #offer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.left-side-about {
+    flex-basis: 50%;
+}
+
+.right-side-about {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about {
+    width: 100%;
+}
+
+.about-text {
+    max-width: 50em;
+    display: inline-block;
+    margin-right: 10em;
+}
+
+h2 {
+    margin: 2em 0 1em;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+h3 {
+    font-style: italic;
+    color: rgb(65, 65, 65);
+}
+
+#features {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+img.features-image {
+    width: 8em;
+}
+
+.col h4 {
+    margin-bottom: 1.5em;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.features-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.features-button button {
+    padding: 1em 3em;
+    color: black;
+    background-color: transparent;
+    border: 2px solid pink;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.features-button .line {
+    margin-right: 1em;
+}
+
+.features-button button:hover {
+    background-color: pink;
+    color: white;
+}
+
+#courses, #contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.left-side-courses {
+    flex-basis: 50%;
+}
+
+.right-side-courses {
+    flex-basis: 50%;
+}
+
+.right-side-courses img {
+    width: 100%;
+}
+
+.courses-text {
+    max-width: 50em;
+    margin-left: 5em;
+}
+
+.courses-text p {
+    margin-bottom: 1em;
+}
+
+.courses-text button {
+    padding: 1em 3em;
+    color: black;
+    background-color: transparent;
+    border: 2px solid pink;
+    font-weight: bold;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.courses-text button:hover {
+    background-color: pink;
+    color: white;
+}
+
+.about-text button {
+    padding: 1em 3em;
+    color: black;
+    background-color: transparent;
+    border: 2px solid pink;
+    font-weight: bold;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.about-text button:hover {
+    background-color: pink;
+    color: white;
+}
+
+.buttons button {
+    padding: 1em 3em;
+    color: white;
+    background-color: pink;
+    border: 2px solid pink;
+    font-weight: bold;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: pink;
+}
+
+form {
+    max-width: 25em;
+    margin: 1em 0;
+}
+
+form input {
+    padding: 1em 0;
+    margin: 0.5em 0;
+    width: 100%;
+    border: 2px solid pink;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.courses-text h1 {
+    font-size: 2rem;
+    width: 14em;
+}
+
+#footer {
+    padding: 1em;
+    border-top: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3.designer {
+    color: purple;
+}
